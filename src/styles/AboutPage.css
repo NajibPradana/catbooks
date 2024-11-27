@@ -1,0 +1,76 @@
+/* AboutPage.css */
+
+.about-container {
+    
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .about-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .about-footer {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* Responsivitas */
+  @media (max-width: 768px) {
+    .about-container {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .about-header {
+      font-size: 1.8rem;
+    }
+  
+    .about-content {
+      font-size: 0.95rem;
+    }
+  
+    .about-footer {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-container {
+      padding: 10px;
+    }
+  
+    .about-header {
+      font-size: 1.5rem;
+    }
+  
+    .about-content {
+      font-size: 0.9rem;
+    }
+  
+    .about-footer {
+      font-size: 0.8rem;
+    }
+  }
+  

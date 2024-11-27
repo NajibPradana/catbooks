@@ -1,0 +1,89 @@
+/* Kontainer utama */
+.breed-detail-container {
+ 
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Judul */
+.breed-detail-container h4 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+/* Informasi breed */
+.breed-detail-container .breed-info {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.breed-detail-container .breed-info span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Tombol kembali */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Loading spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Not found */
+.not-found {
+  text-align: center;
+  color: #666;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  .breed-detail-container {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .breed-detail-container h4 {
+    font-size: 1.5rem;
+  }
+
+  .breed-info {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .back-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}

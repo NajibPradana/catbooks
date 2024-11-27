@@ -1,0 +1,103 @@
+/* Styling untuk halaman detail */
+
+/* Container utama */
+.cat-detail-page {
+  background-color: #f9fafb; /* Latar belakang abu-abu sangat lembut */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Card detail */
+.cat-detail-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Gambar di halaman detail */
+.cat-detail-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Heading nama kucing */
+.cat-detail-card h2 {
+  font-size: 2rem;
+  color: #1f2937; /* Warna abu-abu gelap */
+  margin-bottom: 10px;
+}
+
+/* Deskripsi dan detail lainnya */
+.cat-detail-card p {
+  font-size: 1rem;
+  color: #4b5563; /* Warna teks abu-abu */
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.cat-detail-card .label {
+  font-weight: bold;
+  color: #6b7280; /* Warna abu-abu ringan */
+}
+
+/* Media queries untuk responsivitas */
+@media (max-width: 1024px) {
+  .cat-detail-card {
+      max-width: 90%;
+  }
+
+  .cat-detail-card img {
+      height: 300px; /* Kurangi tinggi gambar */
+  }
+
+  .cat-detail-card h2 {
+      font-size: 1.8rem; /* Kurangi ukuran heading */
+  }
+
+  .cat-detail-card p {
+      font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cat-detail-card {
+      padding: 15px; /* Kurangi padding untuk perangkat tablet */
+  }
+
+  .cat-detail-card img {
+      height: 250px;
+  }
+
+  .cat-detail-card h2 {
+      font-size: 1.6rem;
+  }
+
+  .cat-detail-card p {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cat-detail-card {
+      padding: 10px;
+  }
+
+  .cat-detail-card img {
+      height: 200px; /* Sesuaikan untuk perangkat kecil */
+  }
+
+  .cat-detail-card h2 {
+      font-size: 1.4rem;
+      text-align: center;
+  }
+
+  .cat-detail-card p {
+      font-size: 0.85rem;
+  }
+}
